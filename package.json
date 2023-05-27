@@ -1,11 +1,12 @@
 {
   "name": "markovate-backend",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "nodemon ./src/app.js"
+    "start": "nodemon ./src/index.js",
+    "build": "node dist"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
